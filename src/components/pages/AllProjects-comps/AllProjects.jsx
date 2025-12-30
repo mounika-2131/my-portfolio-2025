@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import department from '/images/projectsImages/department.png'
+import easyshop from '/images/projectsImages/department.png'
 import portfolio from '/images/projectsImages/portfolio.png'
 
 
@@ -10,7 +10,7 @@ const AllProjects = () => {
     const projects = [
         {
             id: 1,
-            src: department,
+            src: easyshop,
             demo: 'https://csdcsit.vercel.app/',
             code: 'https://github.com/mounika-2131/url-shortener-app'
         },

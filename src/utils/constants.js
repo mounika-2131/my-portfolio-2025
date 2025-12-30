@@ -18,3 +18,5 @@ const projects = [
     code: "https://github.com/mounika-2131/my-portfolio-2025",
   },
 ];
+
+export default projects;
