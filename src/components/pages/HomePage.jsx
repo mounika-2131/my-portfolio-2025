@@ -9,11 +9,12 @@ import CertificateSlider from './homepage-comps/CertificateSlider'
 
 const HomePage = () => {
     const certificates = [
-        {image: '/public/images/certificates/Screenshot 2025-07-12 214221.png'},
-        {image: '/public/images/certificates/Screenshot 2025-07-12 214430.png'},
-        {image: 'public/images/certificates/Screenshot 2025-07-12 214540.png'},
-        {image: 'public/images/certificates/Screenshot 2025-07-12 215609.png'},
-        {image: 'public/images/certificates/Screenshot 2025-07-12 215642.png'},
+        {image: '/images/certificates/Screenshot 2025-07-12 214221.png'},
+        {image: '/images/certificates/Screenshot 2025-07-12 214430.png'},
+        {image: '/images/certificates/Screenshot 2025-07-12 214540.png'},
+        {image: '/images/certificates/Screenshot 2025-07-12 215609.png'},
+        {image: '/images/certificates/Screenshot 2025-07-12 215642.png'},
+        {image: '/images/certificates/Screenshot 2025-10-01 214713.png'},
         {image: '/images/certificates/Screenshot 2025-10-01 225217.png'},
     ];
 
