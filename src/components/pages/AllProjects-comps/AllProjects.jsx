@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import easyshop from '/images/projectsImages/department.png'
-import portfolio from '/images/projectsImages/portfolio.png'
+import portfolio from '/images/projectsImages/Portfolio-1170x658.jpg'
 
 
 const AllProjects = () => {
