@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import easyshop from '/images/projectsImages/department.png'
+import portfolio from '/images/projectsImages/portfolio.png'
 
 
 const AllProjects = () => {
@@ -12,7 +13,14 @@ const AllProjects = () => {
             src: easyshop,
             demo: 'https://csdcsit.vercel.app/',
             code: 'https://github.com/mounika-2131/url-shortener-app'
+        },
+        {
+            id: 2,
+            src: portfolio,
+            demo: 'https://your-portfolio-link.vercel.app/', // Update with your actual deployment link
+            code: 'https://github.com/mounika-2131/my-portfolio-2025'
         }
+        
     ]
 
     const handleClickDemo = (demoUrl) => {
