@@ -1,18 +1,6 @@
 import React from "react";
 
 const ProjectCard = ({ project, handleModalInfo }) => {
-  const handleClickDemo = (demoUrl) => {
-    const newWindow = window.open(demoUrl, "_blank");
-    newWindow.opener = null;
-    newWindow.rel = "noopener noreferrer";
-  };
-
-  const handleClickCode = (codeUrl) => {
-    const newWindow = window.open(codeUrl, "_blank");
-    newWindow.opener = null;
-    newWindow.rel = "noopener noreferrer";
-  };
-
   return (
     <div className="shadow-md shadow-gray-600 rounded-lg max-w-md mx-auto overflow-hidden bg-neutral-900">
       <div className="h-40 md:h-48 w-full overflow-hidden">
@@ -31,18 +19,22 @@ const ProjectCard = ({ project, handleModalInfo }) => {
         )}
 
         <div className="flex items-center justify-center mt-4">
-          <button
-            onClick={() => handleClickDemo(project.demo)}
-            className="w-1/2 px-6 py-2 m-2 duration-200 hover:scale-125"
+          <a
+            href={project.demo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-1/2 px-6 py-2 m-2 duration-200 hover:scale-125 text-center"
           >
             Demo
-          </button>
-          <button
-            onClick={() => handleClickCode(project.code)}
-            className="w-1/2 px-6 py-2 m-2 duration-200 hover:scale-125"
+          </a>
+          <a
+            href={project.code}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-1/2 px-6 py-2 m-2 duration-200 hover:scale-125 text-center"
           >
             Code
-          </button>
+          </a>
         </div>
       </div>
     </div>
