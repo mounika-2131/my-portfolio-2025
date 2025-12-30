@@ -38,7 +38,9 @@ const AllProjects = () => {
                         <div className="flex justify-center">
                             {projects.map(({ id, src, demo, code }) => (
                                 <div key={id} className='shadow-md shadow-gray-600 rounded-lg max-w-md mx-auto'>
-                                    <img loading='lazy' src={src} alt="project card" className='rounded-md duration-200 hover:scale-105' />
+                                    <div className="aspect-video w-full overflow-hidden">
+                                        <img loading='lazy' src={src} alt="project card" className='w-full h-full object-cover rounded-md duration-200 hover:scale-105' />
+                                    </div>
                                     <div className='flex items-center justify-center'>
                                         <a href={demo} target="_blank" rel="noopener noreferrer" className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-125 text-center'>Demo</a>
                                         <a href={code} target="_blank" rel="noopener noreferrer" className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-125 text-center'>Code</a>
@@ -51,7 +53,9 @@ const AllProjects = () => {
                             {
                                 projects.map(({ id, src, demo, code }) => (
                                         <div key={id} className='shadow-md shadow-gray-600 rounded-lg max-w-md mx-auto'>
-                                            <img loading='lazy' src={src} alt="project card" className='rounded-md duration-200 hover:scale-105' />
+                                            <div className="aspect-video w-full overflow-hidden">
+                                                <img loading='lazy' src={src} alt="project card" className='w-full h-full object-cover rounded-md duration-200 hover:scale-105' />
+                                            </div>
                                             <div className='flex items-center justify-center'>
                                                 <a href={demo} target="_blank" rel="noopener noreferrer" className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-125 text-center'>Demo</a>
                                                 <a href={code} target="_blank" rel="noopener noreferrer" className='w-1/2 px-6 py-2 m-4 duration-200 hover:scale-125 text-center'>Code</a>

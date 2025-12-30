@@ -3,7 +3,7 @@ import React from "react";
 const ProjectCard = ({ project, handleModalInfo }) => {
   return (
     <div className="shadow-md shadow-gray-600 rounded-lg max-w-md mx-auto overflow-hidden bg-neutral-900">
-      <div className="h-40 md:h-48 w-full overflow-hidden">
+      <div className="aspect-video w-full overflow-hidden">
         <img
           onClick={() => handleModalInfo(project)}
           src={project.src}
