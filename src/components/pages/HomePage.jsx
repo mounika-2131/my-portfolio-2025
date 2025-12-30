@@ -14,7 +14,6 @@ const HomePage = () => {
         {image: '/images/certificates/Screenshot 2025-07-12 214540.png'},
         {image: '/images/certificates/Screenshot 2025-07-12 215609.png'},
         {image: '/images/certificates/Screenshot 2025-07-12 215642.png'},
-        {image: '/images/certificates/Screenshot 2025-10-01 214713.png'},
         {image: '/images/certificates/Screenshot 2025-10-01 225217.png'},
     ];
 
