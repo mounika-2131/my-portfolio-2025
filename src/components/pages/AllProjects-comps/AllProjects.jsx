@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import easyshop from '/images/projectsImages/department.png'
+import department from '/images/projectsImages/department.png'
 import portfolio from '/images/projectsImages/portfolio.png'
 
 
@@ -10,14 +10,14 @@ const AllProjects = () => {
     const projects = [
         {
             id: 1,
-            src: easyshop,
+            src: department,
             demo: 'https://csdcsit.vercel.app/',
             code: 'https://github.com/mounika-2131/url-shortener-app'
         },
         {
             id: 2,
             src: portfolio,
-            demo: 'https://your-portfolio-link.vercel.app/', // Update with your actual deployment link
+            demo: 'https://mounika-portfolio-2025.netlify.app/',
             code: 'https://github.com/mounika-2131/my-portfolio-2025'
         }
         
